@@ -1,21 +1,21 @@
 const timelineData = [
     {
-        text: 'Started working on the app-ideas repository',
-        date: 'February 25 2019',
+        text: 'Organised an online fundraiser with more than 4K raised',
+        date: 'December 25 2021',
         category: {
-			tag: 'app-ideas',
+			tag: 'Fundraiser',
 			color: '#FFDB14'
 		},
         link: {
             url: 'https://github.com/florinpop17/app-ideas',
-            text: 'Check it out on GitHub'
+            text: 'Check it out on Instagram'
         }
     },
     {
-        text: 'Started the Weekly Coding Challenge program',
-        date: 'March 04 2019',
+        text: 'Distributed products to underprivileged',
+        date: 'January 04 2022',
         category: {
-			tag: 'blog',
+			tag: 'Drive',
 			color: '#e17b77'
 		},
         link: {

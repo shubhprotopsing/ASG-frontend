@@ -5,7 +5,137 @@
 }
 
 body {
-  background-color:rgb(200,200,200);
+  background-color:white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+#root{
+  width:100%;
+}
+
+@keyframes sendToBack{
+  from{
+    z-index:1;
+  }
+
+  to{
+    z-index: -1;
+  }
+}
+@keyframes slideIn{
+
+  from{
+    width: 0%;
+    padding: 0px;
+    max-height: 0;
+  }
+  to{
+    width: 50%;
+    max-height: 500%;
+    padding: 14px;
+    overflow: visible;
+  }
+
+}
+
+
+h1{
+  text-align: center;
+}
+
+.timeline-container{
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  margin: 40px 0px;
+}
+
+.timeline-container::after{
+  background-color: #e17b77;
+  content:'';
+  position: absolute;
+  left: calc(50% - 2px);
+  width: 4px;
+  height: 100%;
+}
+
+.timeline-item {
+  width:50%;
+  flex-direction: row-reverse;
+}
+
+.timeline-item:nth-child(odd){
+  align-self: flex-end;
+  flex-direction: row;
+}
+
+.timeline-item-content{
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  background-color: #FAF9F6;
+  align-content: flex-start;
+  border-left: 5px solid;
+  right:30px;
+}
+
+.timeline-item-content::after{
+  content: '';
+  width:15px;
+  height:15px;
+  transform: rotateZ(45deg);
+  box-shadow: 2px -1px 2px -1px rgba(0,0,0,0.3);
+  position: absolute;
+  background-color: #FAF9F6;
+  top:calc(50% - 7.5px);
+  right: -7.5px;
+  
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content::after{
+  right:auto;
+  left: -7.5px;
+  transform: rotateZ(45deg);
+  box-shadow: -1px 2px 2px -1px rgba(0,0,0,0.3);
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content{
+  border-radius: 0px 10px 10px 0px;
+  border-right: 5px solid;
+  border-left: 0px;
+  left: 30px;
+  right: auto;
+}
+
+.timeline-item-content .tag{
+  left: 5px;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content .tag{
+  left: auto;
+  right: 5px;
+}
+
+.timeline-item-content a{
+  text-decoration: none;
+}
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background-color:white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -179,4 +309,4 @@ h1{
 
 .timeline-item:nth-child(odd) .timeline-item-content time {
   align-self: flex-end;
-}
+} */
