@@ -6,10 +6,12 @@ import Team from './components/Team';
 import Footer from './components/Footer';
 import Timeline from './components/Timeline';
 import './Timeline.css'
+import Achievements from './components/Achievements';
 function App() {
   return (
     <div className="App">
     <Header />
+    <Achievements />
     <Timeline />
     <Navicon />
     <Team />

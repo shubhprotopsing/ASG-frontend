@@ -3,7 +3,7 @@ import './Header.css';
 
  function Header(){
      return(
-            <div className="top_image">
+            <div className="top_image w-full">
                 
             </div>
      );

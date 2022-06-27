@@ -3,7 +3,7 @@
 .nav__icon__burger{
     width: 40px;
     height: 4px;
-    background:white;
+    background:rgba(219, 39, 119);
     border-radius: 5px;
     transition: all .5s ease-in-out;
     
@@ -15,7 +15,7 @@
     position: absolute;
     width: 40px;
     height: 4px;
-    background:white;
+    background:rgba(219, 39, 119);
     border-radius: 5px;
     transition: all .5s ease-in-out;
 }
