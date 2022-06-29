@@ -4,7 +4,7 @@ const timelineData = [
         date: 'December 25 2021',
         category: {
 			tag: 'Fundraiser',
-			color: '#FFDB14'
+			color: '#db2777'
 		},
         link: {
             url: 'https://github.com/florinpop17/app-ideas',
@@ -16,7 +16,7 @@ const timelineData = [
         date: 'January 04 2022',
         category: {
 			tag: 'Drive',
-			color: '#e17b77'
+			color: '#db2777'
 		},
         link: {
             url: 'https://florin-pop/blog/2019/03/weekly-coding-challenge/',
@@ -28,7 +28,7 @@ const timelineData = [
         date: 'March 07 2019',
         category: {
 			tag: 'twitter',
-			color: '#1DA1F2'
+			color: '#db2777'
 		},
         link: {
             url: 'https://twitter.com/florinpop1705',
@@ -41,7 +41,7 @@ const timelineData = [
         date: 'March 18 2019',
         category: {
 			tag: 'medium',
-			color: '#018f69'
+			color: '#db2777'
 		},
         link: {
             url:
@@ -54,13 +54,14 @@ const timelineData = [
         date: 'April 05 2019',
         category: {
 			tag: 'medium',
-			color: '#018f69'
+			color: '#db2777'
 		},
         link: {
             url: 'https://medium.com/@popflorin1705',
             text: 'See profile'
         }
     }
+    
 ]
 
 export default timelineData;

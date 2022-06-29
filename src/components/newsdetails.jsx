@@ -10,7 +10,7 @@ const newsdetails= [
         linktag:
         "check out article",
         description:
-         "Shiuli Sural is an undergraduate student studying History at Hansraj College. She spends her time reading books and writing articles. Her favourite Greek Goddess is Athena. Menstrual hygiene awareness and activism are very close to her heart, and she hopes that ASG will play a role in ending period poverty in India. . "
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero urna, sagittis in tellus sit amet, blandit tincidunt elit. Nunc libero nisl, molestie tincidunt pretium in, volutpat quis mauris. Mauris non nisi sed augue venenatis semper sit amet vel risus. Morbi auctor, risus quis commodo mattis, est risus faucibus metus."
 
     }
     ,
@@ -24,7 +24,7 @@ const newsdetails= [
         linktag:
         "find out more",
         description:
-         "Vaani Kumar is an aspiring journalist.  She writes content and news articles for ASG. She believes that the hardworking nature and dedication of the team has helped her diversify her content and explore herself as a writer.  "
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero urna, sagittis in tellus sit amet, blandit tincidunt elit. Nunc libero nisl, molestie tincidunt pretium in, volutpat quis mauris. Mauris non nisi sed augue venenatis semper sit amet vel risus. Morbi auctor, risus quis commodo mattis, est risus faucibus metus."
 
     }
     ,
@@ -38,7 +38,38 @@ const newsdetails= [
         linktag:
         "find out more",
         description:
-         "Vaani Kumar is an aspiring journalist.  She writes content and news articles for ASG. She believes that the hardworking nature and dedication of the team has helped her diversify her content and explore herself as a writer.  "
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero urna, sagittis in tellus sit amet, blandit tincidunt elit. Nunc libero nisl, molestie tincidunt pretium in, volutpat quis mauris. Mauris."
+         
+
+    }
+    ,
+    {
+        id:
+         4,
+        headline:
+         "A Sanitary Gift begins there first world tour for charity in collaboration with comedians",
+        link: 
+        ";jad;fioha;fija",
+        linktag:
+        "see trailer",
+        description:
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero urna, sagittis in tellus sit amet, blandit tincidunt elit. Nunc libero nisl, molestie tincidunt pretium in, volutpat quis mauris. Mauris."
+         
+
+    }
+    ,
+    {
+        id:
+         5,
+        headline:
+         "ASG releases there podcast",
+        link: 
+        "lfhaufhalufhalfuhl",
+        linktag:
+        "listen on spotify now",
+        description:
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed libero urna, sagittis in tellus sit amet, blandit tincidunt elit. Nunc libero nisl, molestie tincidunt pretium in, volutpat quis mauris. Mauris."
+         
 
     }
 
